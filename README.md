@@ -1,5 +1,5 @@
 # LinkedIn AutoConnect-Extension for Chrome
-This Chrome extension automates sending connection requests on an active LinkedIn search list. With this tool, you can save time and efficiently expand your professional network.
+This Chrome extension automates sending connection requests on an active LinkedIn search list.
 
 ---
 
@@ -12,7 +12,7 @@ This Chrome extension automates sending connection requests on an active LinkedI
 ## Installation
 
 1. **Download the Extension:**
-   - Click [here](./AutoConnect Extension.crx) to download the `.crx` file.
+   - Click [here](./AutoConnect_Extension.crx) to download the `.crx` file.
 
 2. **Enable Developer Mode in Chrome:**
    - Open Chrome and go to `chrome://extensions/`.
