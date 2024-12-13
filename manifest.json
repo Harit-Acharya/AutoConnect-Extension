@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Connector",
+    "description": "Send connection reqs on active LinkedIn search list", 
+    "version": "1.0",
+        "permissions": ["scripting", "activeTab", "tabs"],
+        "host_permissions": ["https://*.linkedin.com/*"],
+        "background": {
+            "service_worker": "background.js"
+        },
+        "action": {
+            "default_popup": "popup/popup.html",
+            "default_icon": {
+                "16": "images/16.png",
+                "48": "images/48.png",
+                "128": "images/128.png"
+            }
+        },
+        "content_scripts": [
+            {
+                "matches": ["https://*.linkedin.com/*"],
+                "js": ["content.js"]
+            }
+        ],
+        "icons": {
+            "16": "images/16.png",
+            "48": "images/48.png",
+            "128": "images/128.png"
+        }
+    }
+    
