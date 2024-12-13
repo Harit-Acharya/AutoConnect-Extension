@@ -12,15 +12,16 @@ This Chrome extension automates sending connection requests on an active LinkedI
 ## Installation
 
 1. **Download the Extension:**
-   - Click [here](./AutoConnect_Extension.crx) to download the `.crx` file.
+   - Click [here](./AutoConnect-Extension.zip) to download the `.zip` file.
+   - Extract the `.zip` file.
 
 2. **Enable Developer Mode in Chrome:**
    - Open Chrome and go to `chrome://extensions/`.
    - Toggle the **Developer mode** switch in the top right corner.
 
 3. **Install the Extension:**
-   - Drag and drop the downloaded `.crx` file onto the `chrome://extensions/` page.
-   - Confirm the installation when prompted.
+   - Click on "Load Unpacked" on the top left corner in the `chrome://extensions/` page.
+   - Select the extracted folder and click "Select Folder".
 
 ---
 
